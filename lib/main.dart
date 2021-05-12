@@ -9,7 +9,7 @@ class MyFarmaciaApp extends StatelessWidget {
         title: "Mi Farmacia",
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.lightBlue,
         ), //Fin de theme
 
         //Ruta de ventanas
