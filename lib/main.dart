@@ -66,7 +66,7 @@ class Contacto extends StatelessWidget {
       body: Center(
         child: Text(
           'Seccion de contacto',
-        ), 
+        ),
       ), //Fin de body: Center
     ); //Fin de Scaffold
   } //Fin del widget contacto
