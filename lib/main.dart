@@ -88,7 +88,7 @@ class Inicio extends StatelessWidget {
                         child: Text(
                           "INICIO",
                           textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
                         ),
                       ), //Fin center
                     ), //Fin sizebox
@@ -111,7 +111,7 @@ class Inicio extends StatelessWidget {
                       width: 100,
                       height: 100,
                       child: Center(
-                        child: Text("EMPRESA", textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                        child: Text("EMPRESA", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900)),
                       ),
                     ),
                   ),
@@ -137,7 +137,7 @@ class Inicio extends StatelessWidget {
                         width: 100,
                         height: 100,
                         child: Center(
-                          child: Text("PRODUCTOS", textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                          child: Text("PRODUCTOS", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900)),
                         ),
                       ),
                     ),
@@ -158,7 +158,7 @@ class Inicio extends StatelessWidget {
                         width: 100,
                         height: 100,
                         child: Center(
-                          child: Text("CONTACTO", textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                          child: Text("CONTACTO", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900)),
                         ),
                       ),
                     ),
@@ -168,7 +168,7 @@ class Inicio extends StatelessWidget {
             ],
           ),
         ] //Fin del widget
-            ), //Columna
+            ),
       ), //Fin de Container
     ); //Fin de Scaffold
   } //Fin del widget inicio
