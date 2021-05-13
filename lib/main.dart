@@ -8,7 +8,7 @@ class MelendezApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Mi Empresa',
-        theme: ThemeData(primarySwatch: Colors.red),
+        theme: ThemeData(primarySwatch: Colors.blue),
         //ruta de ventanas
         routes: <String, WidgetBuilder>{
           "/inicio": (BuildContext context) => Inicio(),
@@ -28,7 +28,7 @@ class Empresa extends StatelessWidget {
         title: new Text("Empresa"),
       ),
       body: Center(
-        child: Text("Seccion Empresa"),
+        child: Text("Sección Empresa"),
       ),
     ); //Fin de Scaffold
   } //Fin widget empresa
@@ -42,7 +42,7 @@ class Productos extends StatelessWidget {
         title: new Text("Productos"),
       ),
       body: Center(
-        child: Text("Seccion Productos"),
+        child: Text("Sección Productos"),
       ),
     ); //Fin de Scaffold
   } //Fin widget productos
@@ -56,7 +56,7 @@ class Contacto extends StatelessWidget {
         title: new Text("Contacto"),
       ),
       body: Center(
-        child: Text("Seccion Contacto"),
+        child: Text("Sección Contacto"),
       ),
     ); //Fin de Scaffold
   } //Fin widget contacto
