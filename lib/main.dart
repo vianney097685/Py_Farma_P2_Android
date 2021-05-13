@@ -68,7 +68,7 @@ class Inicio extends StatelessWidget {
     return new Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10),
-        decoration: BoxDecoration(color: Colors.blueViolet, image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/vianney097685/FotosRosas/main/farma.jpg"), alignment: Alignment.topCenter)), //Fin de la caja
+        decoration: BoxDecoration(color: Colors.blue[200], image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/vianney097685/FotosRosas/main/farma.jpg"), alignment: Alignment.topCenter)), //Fin de la caja
         child: Column(children: <Widget>[
           Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Column(
