@@ -18,7 +18,7 @@ class MyFarmaciaApp extends StatelessWidget {
         }, //Fin de rutas
         home: Inicio()); //Fin de material
   } //Fin widget
-} //Fin MelendezApp
+} //Fin MyFarmaciaApp
 
 class Empresa extends StatelessWidget {
   @override
