@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MelendezApp());
+void main() => runApp(MyFarmaciaApp());
 
-class MelendezApp extends StatelessWidget {
+class MyFarmaciaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -117,9 +117,9 @@ class Inicio extends StatelessWidget {
                   ),
                 ) //pading
               ], //fin widget
-            ), //Fin columna 2
+            ), //Fin columna dos
           ] //Widget[]
-              ), //Fin de fila 1
+              ), //Fin de fila uno
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -158,17 +158,10 @@ class Inicio extends StatelessWidget {
                         width: 100,
                         height: 100,
                         child: Center(
-                          child: Text("CONTACTO", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900)),
-                        ),
-                      ),
-                    ),
-                  )
-                ],
-              ),
-            ],
-          ),
+                          child: Text("CONTACTO", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900)),),
+                      ), ), ) ], ), ], ),
         ] //Fin del widget
-            ),
+        ),//fin de children
       ), //Fin de Container
     ); //Fin de Scaffold
   } //Fin del widget inicio
